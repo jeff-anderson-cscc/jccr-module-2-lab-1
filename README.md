@@ -86,7 +86,7 @@
 
 **Steps:**
 1. _____ Under src > main > java > edu.cscc.jccr.module2, create a **class** called ``BaseCalculator``
-1. _____ Add the following method: ``public int addNumers (int n1, int n2)`` having it  ``return n1 + n2`` 
+1. _____ Add the following method: ``public int addNumbers (int n1, int n2)`` having it  ``return n1 + n2`` 
 1. _____ Have ``HpCalculator`` extend ``BaseCalculator``
 1. _____ Have ``TiCalculator`` extend ``BaseCalculator``
 1. _____ Open ``BaseCalculatorTests`` under src > **test** > java > edu.cscc.jccr.module2 and add the following code:
