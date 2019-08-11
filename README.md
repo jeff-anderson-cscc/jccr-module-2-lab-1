@@ -28,7 +28,7 @@
         assertEquals("Basic Calculator", hpCalculator.getModel(), "hpCalculator.getModel() should return \"Basic Calculator\"");
       }
     ```
-1. Right click on HpCalculatorTests and choose Run 'HpCalculatorTests' verifying your first test passes 
+1. _____ Right click on HpCalculatorTests and choose Run 'HpCalculatorTests' verifying your first test passes 
 
 **Questions:**
 * As of now, would ``TiCalculator`` also return "Basic Calculator" ? _____________
@@ -100,7 +100,7 @@
         assertEquals(5, baseCalculator.addNumbers(3, 2), "3 + 2 should equal 5");
       }
     ```
-1. Run ``BaseCalculatorTests`` making sure your first test passes
+1. _____ Run ``BaseCalculatorTests`` making sure your first test passes
 
 **Questions:**
 * Why does ``BaseCalculatorTests`` do a new() on ``TiCalculator`` rather than ``BaseCalculator``? _____________
@@ -118,19 +118,19 @@
       @Test
       @DisplayName("T02: getSupportInfo() works correctly")
       void getSupportInfoWorksCorrectlyTest() {
-        assertEquals("hp.com", hpCalculator.getSupportInfo(), "iCalculator.getSupportInfo() should return \"hp.com\"");
+        assertEquals("hp.com", hpCalculator.getSupportInfo(), "hpCalculator.getSupportInfo() should return \"hp.com\"");
       }
     ```
-1.Rerun ``HpCalculatorTests`` making sure all tests pass
+1. _____ Rerun ``HpCalculatorTests`` making sure all tests pass
 1. _____ Below the last test in ``TiCalculatorTests``, add the following:
     ```java
       @Test
       @DisplayName("T03: getSupportInfo() works correctly")
       void getSupportInfoWorksCorrectlyTest() {
-        assertEquals("ti.com", tiCalculator.getSupportInfo(), "iCalculator.getSupportInfo() should return \"ti.com\"");
+        assertEquals("ti.com", tiCalculator.getSupportInfo(), "tiCalculator.getSupportInfo() should return \"ti.com\"");
       }
     ``` 
-1.Rerun ``TiCalculatorTests`` making sure all tests pass
+1._____ Rerun ``TiCalculatorTests`` making sure all tests pass
     
 **Questions:**
 * What are abstract methods reminiscent of? _____________
@@ -146,7 +146,7 @@
       @Test
       @DisplayName("T02: add (int, int, int) works correctly")
       void addThreeIntsWorksCorrectlyTest() {
-        assertEquals(3, baseCalculator.addNumbers(1, 1, 1), "1 + 1 + 2 should equal 3");
+        assertEquals(3, baseCalculator.addNumbers(1, 1, 1), "1 + 1 + 1 should equal 3");
         assertEquals(10, baseCalculator.addNumbers(3, 2, 5), "3 + 2 + 5 should equal 10");
       }
     
@@ -164,10 +164,10 @@
       }
     ```
 1. _____ in ``BaseCalculator``, add and implement the additional ``addNumbers`` methods shown in the class diagram above so your new tests will pass
-1. Rerun ``BaseCalculatorTests`` making sure all tests pass
+1. _____ Rerun ``BaseCalculatorTests`` making sure all tests pass
 
 **Questions:**
-* With four ``addNumbers`` methods, How does the compiler know which one to invoke? _____________
+* With four ``addNumbers`` methods, How does Java know which one to invoke? _____________
 
 ## Variable Arguments
 
@@ -187,7 +187,7 @@
       }
     ```
 1. _____ in ``BaseCalculator``, add and implement the ``multiplyNumbers`` method shown in the class diagram above
-1. Rerun ``BaseCalculatorTests`` making sure all tests pass
+1. _____ Rerun ``BaseCalculatorTests`` making sure all tests pass
 
 **Questions:**
 
