@@ -11,17 +11,5 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 public class TiCalculatorTests {
 
-  /*
-
-  private final TiCalculator baseCalculator = new TiCalculator();
-
-  @Test
-  @DisplayName("T01: square works correctly")
-  void squareWorksCorrectlyTest() {
-    assertEquals(25, baseCalculator.square(5), "5 squared should be 25");
-    assertEquals(16, baseCalculator.square(4), "4 squared should be 16");
-  }
-
-  */
 
 }
